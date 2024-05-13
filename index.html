@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en" data-critters-container>
+
+  <head>
+
+    <base href="/rr-v3/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title and Description -->
+    <title>Raidy-Raidy</title>
+    <meta name="description" content="Cataclysm, Wrath of the Lich King, The Burning Crusade, and World of Warcraft Classic raid strategies, loot tables, instance maps, achievement guides.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Raidy-Raidy">
+    <meta property="og:url" content="https://raidy-raidy.com">
+    <meta property="og:image" content="https://raidy-raidy.com/assets/img/og/og.jpg">
+    <meta property="og:description" content="WotLK, TBC, and WoW Classic raid guides, licked to perfection.">
+
+    <!-- Preload -->
+    <link rel="preload" href="https://raidy-raidy.com/assets/img/interface/expansion-logo/cataclysm.png" as="image">
+    <link rel="preload" href="https://raidy-raidy.com/assets/img/interface/expansion-logo/wotlk.png" as="image">
+    <link rel="preload" href="https://raidy-raidy.com/assets/img/interface/expansion-logo/tbc.png" as="image">
+    <link rel="preload" href="https://raidy-raidy.com/assets/img/interface/expansion-logo/classic.png" as="image">
+
+  <style>html,body{scroll-behavior:smooth}body{display:flex;min-width:320px;min-height:100vh;overflow-x:hidden;background:#000;color:#aaa;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif;-webkit-user-select:none;user-select:none;cursor:default}*{margin:0;padding:0}*:focus{outline-style:none}.app-loading-placeholder{position:fixed;top:0;left:0;z-index:10000;width:100%;height:100%;background:repeating-linear-gradient(-45deg,transparent 0,transparent calc(5% - 2px),#181818 calc(5% - 1px),#181818 5%),repeating-linear-gradient(45deg,#080808 0,#080808 calc(5% - 2px),#181818 calc(5% - 1px),#181818 5%);box-shadow:0 0 10px 10px #222 inset;animation:loadingPlaceholderFadeIn 1.5s}.app-loading-wave-classic,.app-loading-wave-tbc,.app-loading-wave-wotlk,.app-loading-wave-cataclysm,.app-loading-wave-mop{position:fixed;top:-128px;bottom:128px;z-index:10001;width:100%;aspect-ratio:1;margin:auto 0;border-radius:50%;opacity:0;animation:loadingWave 5s linear infinite}.app-loading-wave-classic{box-shadow:0 0 10vw 10vw #66330080,0 0 10vw 10vw #66330080 inset;animation-delay:1s}.app-loading-wave-tbc{box-shadow:0 0 10vw 10vw #3606,0 0 10vw 10vw #3606 inset;animation-delay:2s}.app-loading-wave-wotlk{box-shadow:0 0 10vw 10vw #004d6666,0 0 10vw 10vw #004d6666 inset;animation-delay:3s}.app-loading-wave-cataclysm{box-shadow:0 0 10vw 10vw #66001180,0 0 10vw 10vw #66001180 inset;animation-delay:4s}.app-loading-wave-mop{box-shadow:0 0 10vw 10vw #00664d66,0 0 10vw 10vw #00664d66 inset;animation-delay:5s}.app-loading-vortex{position:fixed;top:max(50vh - 256px,50% - 60vw);left:max(50% - 128px,50% - 30vw);z-index:10002;border-radius:50%;background:#080808;box-shadow:0 0 15px 15px #080808;animation:loadingVortexRotate 10s linear infinite}.app-loading-vortex-image{width:min(256px,60vw);aspect-ratio:1;filter:grayscale(80%)}.app-loading-text{position:fixed;width:300px;top:calc(50vh + 20px);left:calc(50% - 150px);z-index:10002;color:#222;text-align:center;font-size:40px;font-weight:600;letter-spacing:.1em;font-variant:small-caps;text-shadow:1px 1px 0 #666,-1px 1px 0 #666,-1px -1px 0 #666,1px -1px 0 #666;animation:loadingTextFadeInOut 3s infinite}@keyframes loadingPlaceholderFadeIn{0%{opacity:0}67%{opacity:0}to{opacity:1}}@keyframes loadingWave{0%{opacity:1;transform:scale(0)}to{opacity:0;transform:scale(1)}}@keyframes loadingVortexRotate{0%{transform:rotate(360deg)}to{transform:rotate(0)}}@keyframes loadingTextFadeInOut{0%{opacity:.6}50%{opacity:1}to{opacity:.6}}@media (max-width: 599px){.app-loading-wave-classic,.app-loading-wave-tbc,.app-loading-wave-wotlk,.app-loading-wave-cataclysm,.app-loading-wave-mop{left:-500%;right:-500%;top:max(-128px,-30vw);bottom:max(128px,30vw);width:unset;height:100vh;margin:0 auto}}</style><link rel="stylesheet" href="styles.f663d4a99287e4ad.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.f663d4a99287e4ad.css"></noscript></head>
+
+  <body>
+
+    <!-- Loader -->
+    <div id="app-loading-placeholder" class="app-loading-placeholder">
+      <div class="app-loading-wave-classic"></div>
+      <div class="app-loading-wave-tbc"></div>
+      <div class="app-loading-wave-wotlk"></div>
+      <div class="app-loading-wave-cataclysm"></div>
+      <div class="app-loading-wave-mop"></div>
+      <div class="app-loading-vortex">        
+        <img class="app-loading-vortex-image" src="https://raidy-raidy.com/assets/img/interface/decorative/portal-vortex.png">
+      </div>
+      <div class="app-loading-text">Loading...</div>
+    </div>
+
+    <!-- App -->
+    <app-root></app-root>
+
+    <!-- Wowhead Tooltip -->
+    <script>
+      const whTooltips = {
+        colorLinks: false, 
+        iconizeLinks: false, 
+        renameLinks: false, 
+        hide: {"droppedby": true, "dropchance": true}
+      }
+    </script>
+    <script src="https://wow.zamimg.com/widgets/power.js"></script>
+
+  <script src="runtime.c59d0e9287102844.js" type="module"></script><script src="polyfills.a49f83d2ac3995fb.js" type="module"></script><script src="main.ff502dcae8f8704b.js" type="module"></script></body>
+
+</html>
